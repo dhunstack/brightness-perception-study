@@ -1,0 +1,363 @@
+bufferSize: 1024
+pages:
+- content: '            Welcome to our online survey about brightness perception and
+    thank you very much for participating! <br> <br>             In this survey, we
+    wish to understand the sensation of brightness in context of music. <br>             Brightness
+    is used to describe the timbre of a musical instrument, human voice and other
+    music like sounds. <br> <br>             With our study, we&#39;d like to find
+    out how you perceive the brightness of small song snippets. <br> <br>             We
+    will give you a reference song and then ask you to rate the brightness of 4 snippets
+    with respect to the reference. <br>             Please use headphones to participate
+    in this survey.             The survey will take approximately 20 minutes. <br>
+    <br>            Please press <b> Next </b> below to proceed to the instructions
+    page <br>             '
+  id: generic1
+  name: Brightness Perception Test
+  type: generic
+- content: '            The test will have 16 test cases. Each case will have one
+    reference sound and four possibly edited versions.             Rate each edited
+    condition sound with respect to the reference. <br> <br>             Assign each
+    condition to one of the five categories.             If the condition sound seems
+    unchanged, leave the slider at 50 i.e. <b>Same Brightness</b>.             If
+    the condition sound seems <b>More Bright</b>, <b>Most Bright</b>, <b>Less Bright</b>,
+    or <b>Least Bright</b>, set the slider to any number within that category. <br>            For
+    example, <b>C2</b> here is brighter and <b>C3</b> is less bright compared to reference.
+    <br> <br>            While all the operations on this page could be done using
+    a mouse, there are helpful keyboard shortcuts.             Press <b>0</b> to play
+    reference, <b>1</b> for condition 1, <b>2</b> for condition 2 etc. Press the same
+    key again to pause.            Press <b>Shift + Up key</b> to increase the slider
+    value by 10. Press <b>Shift + Down key</b> to decrease the slider value by 10.
+    <br> <br>            Adjust the loop markers to loop a shorter section of the
+    original sound. <br>             Please press <b> Next </b> below to proceed to
+    the test <br>             '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: instruction1
+  name: Instructions Page
+  randomize: true
+  reference: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet+0.000dB_sc5342hz_scDelta+0hz.wav
+  showConditionNames: true
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet-2.00dB_sc4199hz_scDelta-1143hz.wav
+    C2: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet+3.000dB_sc7286hz_scDelta+1943hz.wav
+    C3: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet-4.00dB_sc3272hz_scDelta-2070hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Grace_Jones_Snippet_1
+  name: Grace_Jones_Snippet_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Grace_Jones_Snippet_1/grace_jones_snippet+0.000dB_sc3808hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Grace_Jones_Snippet_1/grace_jones_snippet-1.00dB_sc3382hz_scDelta-425hz.wav
+    C2: configs/resources/audio/experiment/Grace_Jones_Snippet_1/grace_jones_snippet-0.50dB_sc3589hz_scDelta-218hz.wav
+    C3: configs/resources/audio/experiment/Grace_Jones_Snippet_1/grace_jones_snippet-3.00dB_sc2675hz_scDelta-1132hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Classical_RichardStrauss_1
+  name: Classical_RichardStrauss_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Classical_RichardStrauss_1/Classical_RichardStrauss+0.000dB_sc2986hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Classical_RichardStrauss_1/Classical_RichardStrauss+0.250dB_sc3058hz_scDelta+72hz.wav
+    C2: configs/resources/audio/experiment/Classical_RichardStrauss_1/Classical_RichardStrauss-3.00dB_sc2245hz_scDelta-741hz.wav
+    C3: configs/resources/audio/experiment/Classical_RichardStrauss_1/Classical_RichardStrauss+4.000dB_sc4224hz_scDelta+1238hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Lofi_01_2
+  name: Lofi_01_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Lofi_01_2/Lofi_01+0.000dB_sc3716hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Lofi_01_2/Lofi_01-2.00dB_sc2933hz_scDelta-782hz.wav
+    C2: configs/resources/audio/experiment/Lofi_01_2/Lofi_01+2.000dB_sc4624hz_scDelta+909hz.wav
+    C3: configs/resources/audio/experiment/Lofi_01_2/Lofi_01+0.750dB_sc4045hz_scDelta+329hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Techno_Kaf_01_1
+  name: Techno_Kaf_01_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Techno_Kaf_01_1/Techno_Kaf_01+0.000dB_sc2321hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Techno_Kaf_01_1/Techno_Kaf_01+0.250dB_sc2404hz_scDelta+83hz.wav
+    C2: configs/resources/audio/experiment/Techno_Kaf_01_1/Techno_Kaf_01+2.000dB_sc3057hz_scDelta+736hz.wav
+    C3: configs/resources/audio/experiment/Techno_Kaf_01_1/Techno_Kaf_01-1.00dB_sc2013hz_scDelta-308hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: HerbieHancock_Snippet_2
+  name: HerbieHancock_Snippet_2
+  randomize: true
+  reference: configs/resources/audio/experiment/HerbieHancock_Snippet_2/herbie_hancock_snippet+0.000dB_sc5342hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/HerbieHancock_Snippet_2/herbie_hancock_snippet+0.250dB_sc5497hz_scDelta+155hz.wav
+    C2: configs/resources/audio/experiment/HerbieHancock_Snippet_2/herbie_hancock_snippet-1.00dB_sc4747hz_scDelta-595hz.wav
+    C3: configs/resources/audio/experiment/HerbieHancock_Snippet_2/herbie_hancock_snippet+0.500dB_sc5654hz_scDelta+312hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Techno_PolarInertia_2
+  name: Techno_PolarInertia_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Techno_PolarInertia_2/Techo_PolarInertia+0.000dB_sc5481hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Techno_PolarInertia_2/Techo_PolarInertia+4.000dB_sc7912hz_scDelta+2432hz.wav
+    C2: configs/resources/audio/experiment/Techno_PolarInertia_2/Techo_PolarInertia+1.000dB_sc6103hz_scDelta+622hz.wav
+    C3: configs/resources/audio/experiment/Techno_PolarInertia_2/Techo_PolarInertia-0.25dB_sc5327hz_scDelta-153hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Classical_GustavHolst_03_1
+  name: Classical_GustavHolst_03_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Classical_GustavHolst_03_1/Classical_GustavHolst_03+0.000dB_sc1949hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Classical_GustavHolst_03_1/Classical_GustavHolst_03+0.250dB_sc2001hz_scDelta+52hz.wav
+    C2: configs/resources/audio/experiment/Classical_GustavHolst_03_1/Classical_GustavHolst_03+2.000dB_sc2393hz_scDelta+444hz.wav
+    C3: configs/resources/audio/experiment/Classical_GustavHolst_03_1/Classical_GustavHolst_03+4.000dB_sc2878hz_scDelta+929hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Classical_GustavHolst_01_2
+  name: Classical_GustavHolst_01_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Classical_GustavHolst_01_2/Classical_GustavHolst_01+0.000dB_sc1110hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Classical_GustavHolst_01_2/Classical_GustavHolst_01+3.000dB_sc1498hz_scDelta+388hz.wav
+    C2: configs/resources/audio/experiment/Classical_GustavHolst_01_2/Classical_GustavHolst_01-0.75dB_sc1036hz_scDelta-74hz.wav
+    C3: configs/resources/audio/experiment/Classical_GustavHolst_01_2/Classical_GustavHolst_01+0.500dB_sc1164hz_scDelta+54hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Grace_Jones_Snippet_2
+  name: Grace_Jones_Snippet_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Grace_Jones_Snippet_2/grace_jones_snippet+0.000dB_sc3808hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Grace_Jones_Snippet_2/grace_jones_snippet+0.500dB_sc4037hz_scDelta+229hz.wav
+    C2: configs/resources/audio/experiment/Grace_Jones_Snippet_2/grace_jones_snippet+4.000dB_sc5859hz_scDelta+2052hz.wav
+    C3: configs/resources/audio/experiment/Grace_Jones_Snippet_2/grace_jones_snippet-2.00dB_sc3005hz_scDelta-803hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Classical_RichardStrauss_2
+  name: Classical_RichardStrauss_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Classical_RichardStrauss_2/Classical_RichardStrauss+0.000dB_sc2986hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Classical_RichardStrauss_2/Classical_RichardStrauss+2.000dB_sc3590hz_scDelta+604hz.wav
+    C2: configs/resources/audio/experiment/Classical_RichardStrauss_2/Classical_RichardStrauss-1.00dB_sc2713hz_scDelta-273hz.wav
+    C3: configs/resources/audio/experiment/Classical_RichardStrauss_2/Classical_RichardStrauss+1.000dB_sc3280hz_scDelta+294hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Lofi_01_1
+  name: Lofi_01_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Lofi_01_1/Lofi_01+0.000dB_sc3716hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Lofi_01_1/Lofi_01+1.000dB_sc4158hz_scDelta+443hz.wav
+    C2: configs/resources/audio/experiment/Lofi_01_1/Lofi_01-0.50dB_sc3506hz_scDelta-210hz.wav
+    C3: configs/resources/audio/experiment/Lofi_01_1/Lofi_01+4.000dB_sc5580hz_scDelta+1865hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Techno_Kaf_01_2
+  name: Techno_Kaf_01_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Techno_Kaf_01_2/Techno_Kaf_01+0.000dB_sc2321hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Techno_Kaf_01_2/Techno_Kaf_01-0.50dB_sc2162hz_scDelta-159hz.wav
+    C2: configs/resources/audio/experiment/Techno_Kaf_01_2/Techno_Kaf_01-3.00dB_sc1518hz_scDelta-803hz.wav
+    C3: configs/resources/audio/experiment/Techno_Kaf_01_2/Techno_Kaf_01+0.750dB_sc2579hz_scDelta+258hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: HerbieHancock_Snippet_1
+  name: HerbieHancock_Snippet_1
+  randomize: true
+  reference: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet+0.000dB_sc5342hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet-2.00dB_sc4199hz_scDelta-1143hz.wav
+    C2: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet+3.000dB_sc7286hz_scDelta+1943hz.wav
+    C3: configs/resources/audio/experiment/HerbieHancock_Snippet_1/herbie_hancock_snippet-4.00dB_sc3272hz_scDelta-2070hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Classical_GustavHolst_03_2
+  name: Classical_GustavHolst_03_2
+  randomize: true
+  reference: configs/resources/audio/experiment/Classical_GustavHolst_03_2/Classical_GustavHolst_03+0.000dB_sc1949hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Classical_GustavHolst_03_2/Classical_GustavHolst_03-0.50dB_sc1848hz_scDelta-100hz.wav
+    C2: configs/resources/audio/experiment/Classical_GustavHolst_03_2/Classical_GustavHolst_03+3.000dB_sc2633hz_scDelta+684hz.wav
+    C3: configs/resources/audio/experiment/Classical_GustavHolst_03_2/Classical_GustavHolst_03-1.00dB_sc1753hz_scDelta-196hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Techno_PolarInertia_1
+  name: Techno_PolarInertia_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Techno_PolarInertia_1/Techo_PolarInertia+0.000dB_sc5481hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Techno_PolarInertia_1/Techo_PolarInertia+0.250dB_sc5635hz_scDelta+155hz.wav
+    C2: configs/resources/audio/experiment/Techno_PolarInertia_1/Techo_PolarInertia-0.75dB_sc5024hz_scDelta-456hz.wav
+    C3: configs/resources/audio/experiment/Techno_PolarInertia_1/Techo_PolarInertia-2.00dB_sc4302hz_scDelta-1179hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: 'Rate the brightness of each stimuli compared to the reference '
+  createAnchor35: false
+  createAnchor70: false
+  enableLooping: true
+  id: Classical_GustavHolst_01_1
+  name: Classical_GustavHolst_01_1
+  randomize: true
+  reference: configs/resources/audio/experiment/Classical_GustavHolst_01_1/Classical_GustavHolst_01+0.000dB_sc1110hz_scDelta+0hz.wav
+  showConditionNames: false
+  showWaveform: true
+  stimuli:
+    C1: configs/resources/audio/experiment/Classical_GustavHolst_01_1/Classical_GustavHolst_01-2.00dB_sc933hz_scDelta-177hz.wav
+    C2: configs/resources/audio/experiment/Classical_GustavHolst_01_1/Classical_GustavHolst_01+1.000dB_sc1222hz_scDelta+112hz.wav
+    C3: configs/resources/audio/experiment/Classical_GustavHolst_01_1/Classical_GustavHolst_01-4.00dB_sc809hz_scDelta-301hz.wav
+  strict: false
+  switchBack: true
+  type: mushra
+- content: Thank you for participating in the test!
+  id: finish1
+  name: Finish
+  popupContent: Your results were sent. Goodbye and have a nice day
+  questionnaire:
+  - label: Name
+    name: user
+    optional: false
+    type: text
+  - label: eMail
+    name: email
+    optional: false
+    type: text
+  - default: 0
+    label: Age (optional)
+    max: 100
+    min: 0
+    name: age
+    optional: true
+    type: number
+  - label: Music Education
+    name: education
+    response:
+    - label: None
+      value: none
+    - label: Informal
+      value: informal
+    - label: Formal
+      value: formal
+    type: likert
+  - label: Feedback
+    name: feedback
+    optional: true
+    type: long_text
+  showErrors: false
+  showResults: true
+  type: finish
+  writeResults: true
+remoteService: https://formspree.io/f/xkndnwpv
+showButtonPreviousPage: true
+stopOnErrors: true
+testId: mpcBrightness
+testname: MPCBrightness
